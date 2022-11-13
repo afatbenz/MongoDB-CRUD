@@ -1,9 +1,9 @@
 ## API List
-1. `/api/save` [POST] To Check API is running 
-2. `/api/users` [GET] Register User 
-3. `/api/` [POST] Send OTP to Reset Password
-4. `/api/update/:id` [POST] OTP Validation to Reset Password
-5. `/api/delete/:id` [POST] OTP Validation to Reset Password
+1. `/api/save` [POST] 
+2. `/api/users` [GET]  
+3. `/api/` [POST] 
+4. `/api/update/:id` [POST]
+5. `/api/delete/:id` [POST]
 
 
 ## Do you need a tutorial to run the service?
