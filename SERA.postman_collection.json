@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "9282cc1c-0234-4bfa-bf57-d1c93c242f8f",
+		"name": "SERA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21153478"
+	},
+	"item": [
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"dummy\",\r\n    \"email\": \"dummy@gmail.com\",\r\n    \"name\": \"Dummy user\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3100/api/save",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"api",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"mafatichulfuadi\",\r\n    \"email\": \"mafatichulfuadi@gmail.com\",\r\n    \"name\": \"mafatichul fuadi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3100/api/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"mafatichul\",\r\n    \"email\": \"fatih@gmail.com\",\r\n    \"name\": \"Mafatichul Fuadi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3100/api/update/63710afacd11672463ba25ac",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"api",
+						"update",
+						"63710afacd11672463ba25ac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"mafatichul\",\r\n    \"email\": \"fatih@gmail.com\",\r\n    \"name\": \"Mafatichul Fuadi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3100/api/update/63710afacd11672463ba25ac",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"api",
+						"update",
+						"63710afacd11672463ba25ac"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
